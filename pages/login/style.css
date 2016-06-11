@@ -1,0 +1,13 @@
+img{
+  width: 7em;
+}
+
+.page-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+main{
+  margin: 8rem 0;
+}
