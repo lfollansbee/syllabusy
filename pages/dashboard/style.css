@@ -1,17 +1,23 @@
-img{
-  width: 7em;
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+.logo{
+  width: 15rem;
 }
 
 .page-header{
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 20px;
+  padding-top: 20px;
+  margin-top: 0;
+  background-color:hsl(0, 0%, 99%);
 }
 
 .navbar-fixed-bottom {
   color: black;
-  background-color: grey;
+  background-color: hsl(38, 95%, 60%);
   border-top: grey;
   padding-top: 1em;
 }

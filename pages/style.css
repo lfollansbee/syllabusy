@@ -1,11 +1,22 @@
 img{
-  width: 7em;
+  width: 10em;
+}
+
+*{
+  font-family: 'Raleway', sans-serif;
+}
+
+.logo{
+  width: 25rem;
 }
 
 .page-header{
   display: flex;
   flex-direction: row;
   align-items: center;
+  background-color:hsl(0, 0%, 99%);
+  padding-top: 40px;
+  margin-top:0;
 }
 
 .btn:hover{
@@ -15,7 +26,7 @@ img{
 
 .navbar-fixed-bottom {
   color: black;
-  background-color: grey;
+  background-color: hsl(38, 95%, 60%);
   border-top: grey;
   padding-top: 1em;
 }
