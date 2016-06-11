@@ -4,20 +4,45 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Syllabusy</title>
+    <title>Syllabusy - Login</title>
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
   </head>
   <body>
-    <header class="page-header">
-      <img src="logo-placeholder.png" class="img-responsive logo">
-    </header>
+    <div class="page-header">
+      <img src="media/logo-placeholder.png" class="img-responsive logo">
+      <h1>Syllabusy<small><br>Your Smart Syllabus</small></h1>
+    </div>
+    <main class="container">
+      <article class="row">
+        <div class="col-md-6 col-md-offset-3">
+          <img src="media/du_logo.png" class="img-responsive center-block">
+          <form>
+            <div class="form-group form-group-md">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+            <div class="form-group form-group-md">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="password" placeholder="Password">
+            </div>
+            <button type="submit" class="btn btn-default btn-lg"><a href="dashboard/index.html">Login</a></button>
+          </form>
+        </div>
+      </article>
+    </main>
 
-
-
-
-
+    <footer>
+      <nav class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container text-center">
+          <small>&copy; 2016 Syllabusy</small>
+          <span class="glyphicon glyphicon-education" aria-hidden="true"></span>
+          <small> Denver, CO</small>
+        </div>
+      </nav>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="app.js"></script>

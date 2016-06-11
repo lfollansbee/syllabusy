@@ -2,14 +2,11 @@ img{
   width: 7em;
 }
 
-.login-header{
+.page-header{
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-
-.btn:hover{
-  font-weight: bold;
+  margin-top: 20px;
 }
 
 .navbar-fixed-bottom {

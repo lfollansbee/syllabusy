@@ -6,7 +6,11 @@ img{
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 20px;
+}
+
+.btn:hover{
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .navbar-fixed-bottom {
