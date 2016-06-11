@@ -6,5 +6,15 @@ img{
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 0;
+}
+
+.btn:hover{
+  font-weight: bold;
+}
+
+.navbar-fixed-bottom {
+  color: black;
+  background-color: grey;
+  border-top: grey;
+  padding-top: 1em;
 }
