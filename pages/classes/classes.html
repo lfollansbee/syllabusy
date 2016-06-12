@@ -32,11 +32,11 @@
             <button type="submit" class="btn btn-default">Submit</button>
           </form>
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">TODAY<span class="sr-only">(current)</span></a></li>
-            <li><a href="week.html">WEEK</a></li>
+            <li><a href="../dashboard/index.html">TODAY<span class="sr-only">(current)</span></a></li>
+            <li><a href="../dashboard/week.html">WEEK</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a class="my-classes"href="../classes/classes.html">My Classes</a></li>
+            <li class="active"><a class="my-classes"href="../classes/classes.html">My Classes</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu<span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -56,14 +56,17 @@
       <section class="row">
         <div class="col-sm-8 col-sm-offset-2">
           <ul class="list-group">
-            <li class="list-group-item">Biology 101</li>
-            <li class="list-group-item">Creative Writing 101</li>
-            <li class="list-group-item">Math 110</li>
-            <li class="list-group-item">Philosophy 101</li>
-            <li class="list-group-item"><ul>Psychology 101</li>
-              <li></li>
-              <li></li>
-              <li></li>
+            <li class="list-group-item bio"><ul>Biology 101</ul></li>
+            <li class="list-group-item writing"><ul>Creative Writing 101</ul></li>
+            <li class="list-group-item math"><ul>Math 110</ul></li>
+            <li class="list-group-item phils"><ul>Philosophy 101</ul></li>
+            <li class="list-group-item psych">
+              <ul id="psych">Psychology 101
+                <li><label><input type="checkbox"> September 1: Exam</label></li>
+                <li><label><input type="checkbox"> Paper 1</label></li>
+                <li><label><input type="checkbox"> December 22: Final</label></li>
+              </ul>
+            </li>
           </ul>
         </div>
 

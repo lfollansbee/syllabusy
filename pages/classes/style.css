@@ -29,40 +29,36 @@
   font-size: 3rem;
 }
 
-.tasks ul{
-  padding-left: 0;
-}
-
-.tasks li{
+#psych li{
   list-style:none;
 }
 
 .bio{
-  background-color: green;
+  background-color: hsl(33, 67%, 83%);
   border-radius: 3px;
   padding: .5rem;
 }
 .writing{
-  background-color: rebeccapurple;
+  background-color: hsl(259, 84%, 90%);
   border-radius: 3px;
   padding: .5rem;
 }
 .math{
-  background-color: red;
+  background-color: hsl(184, 59%, 85%);
   border-radius: 3px;
   padding: .5rem;
 }
 .phils{
-  background-color: orange;
+  background-color: hsl(126, 43%, 73%);
   border-radius: 3px;
   padding: .5rem;
 }
 .psych{
-  background-color: lightblue;
+  background-color: hsl(5, 66%, 84%);
   border-radius: 3px;
   padding: .5rem;
+  padding-left: 0;
 }
-
 .tip{
   margin-top: 6rem;
   margin-bottom: 6rem;
