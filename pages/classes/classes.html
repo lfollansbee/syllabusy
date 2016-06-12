@@ -8,7 +8,6 @@
     <title>Syllabusy</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
     <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="style.css">
   </head>
@@ -22,7 +21,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><img src="syllabusy-favicon.png" class="Slogo"></a>
+          <a class="navbar-brand" href="../dashboard/index.html"><img src="syllabusy-favicon.png" class="Slogo"></a>
         </div>
 
         <div class="collapse navbar-collapse">
@@ -32,12 +31,10 @@
             </div>
             <button type="submit" class="btn btn-default">Submit</button>
           </form>
-
           <ul class="nav navbar-nav">
-            <li><a href="index.html">TODAY</a></li>
-            <li class="active"><a href="week.html">WEEK<span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="index.html">TODAY<span class="sr-only">(current)</span></a></li>
+            <li><a href="week.html">WEEK</a></li>
           </ul>
-
           <ul class="nav navbar-nav navbar-right">
             <li><a class="my-classes"href="../classes/classes.html">My Classes</a></li>
             <li class="dropdown">
@@ -51,13 +48,24 @@
               </ul>
             </li>
           </ul>
-        </div>
-      </div>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
     </nav>
 
     <main class="container">
       <section class="row">
-        <a href="calendars/week2.html"><img class="img-responsive center-block" src="calendars/1.png"></a>
+        <div class="col-sm-8 col-sm-offset-2">
+          <ul class="list-group">
+            <li class="list-group-item">Biology 101</li>
+            <li class="list-group-item">Creative Writing 101</li>
+            <li class="list-group-item">Math 110</li>
+            <li class="list-group-item">Philosophy 101</li>
+            <li class="list-group-item"><ul>Psychology 101</li>
+              <li></li>
+              <li></li>
+              <li></li>
+          </ul>
+        </div>
 
       </section>
       <section class="row">
