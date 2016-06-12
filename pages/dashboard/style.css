@@ -2,17 +2,39 @@
   font-family: 'Raleway', sans-serif;
 }
 
-.logo{
-  width: 15rem;
+.Slogo{
+  height:100%;
+  padding:;
 }
 
-.page-header{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-top: 20px;
-  margin-top: 0;
+.navbar{
   background-color:hsl(0, 0%, 99%);
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar-collapse{
+  text-align: center;
+}
+
+.date{
+  margin-top: 3rem;
+  color:hsl(208, 56%, 53%);
+}
+
+.announcement{
+  margin-top:20px;
+  font-size: 3rem;
+}
+
+.tasks ul{
+  padding-left: 0;
+}
+
+.tasks li{
+  list-style:none;
 }
 
 .navbar-fixed-bottom {
