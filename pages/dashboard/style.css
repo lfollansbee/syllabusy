@@ -20,8 +20,11 @@
 }
 
 .date{
-  margin-top: 10rem;
+  margin-top: 5rem;
+  padding: 2rem;
   color:hsl(208, 56%, 53%);
+  border: hsl(208, 56%, 53%) solid 1px;
+  border-radius: 3px;
 }
 
 .announcement{
@@ -65,19 +68,30 @@
 
 .alert-danger{
   font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .tip{
   background-color: hsl(103, 44%, 89%);
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   margin-bottom: 1.5rem;
   padding: 1rem;
 }
 
-.navbar-fixed-bottom {
+footer {
   margin-top: 20px;
   color: black;
   background-color: hsl(38, 95%, 60%);
   border-top: grey;
-  padding-top: 1em;
+  padding: .75em 0;
+}
+
+.navbar-fixed-bottom{
+  margin-top: 20px;
+  color: black;
+  background-color: hsl(38, 95%, 60%);
+  border-top: grey;
+  padding-top: .5em;
+  min-height: 40px;
 }

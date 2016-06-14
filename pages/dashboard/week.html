@@ -57,11 +57,31 @@
 
     <main class="container">
       <section class="row">
-        <a href="calendars/week2.html"><img class="img-responsive center-block" src="calendars/1.png"></a>
-
+        <div class="col-sm-9">
+          <img class="img-responsive center-block" src="calendars/5.png">
+        </div>
+        <div class="col-sm-3">
+          <h3>Tasks</h3>
+          <div class="tasks">
+            <ul class="bio">Biology 101
+              <li><label><input type="checkbox"> Read Chapter 12</label></li>
+            </ul>
+            <ul class="writing">Creative Writing 101
+            </ul>
+            <ul class="math">Math 110
+              <li><label><input type="checkbox"> Complete Exercise 15</label></li>
+            </ul>
+            <ul class="phils">Philosophy 101
+              <li><label><input type="checkbox"> Tomorrow: Read Locke</label></li>
+            </ul>
+            <ul class="psych">Psychology 101
+              <li><label><input type="checkbox"> September 1: Psychology Exam</label></li>
+            </ul>
+          </div>
+        </div>
       </section>
       <section class="row">
-        <article class="tip col-sm-10 col-sm-offset-1 alert alert-success">
+        <article class="tip col-sm-10 col-sm-offset-1 well">
           <h4>Today's Study Tip: Make your own study materials:</h4>
           <p>Think up some practice exam questions or create your own flash cards to help you study. This way you learn it all twice: once when you make the study materials and again when you use them to review.</p>
         </article>
@@ -69,17 +89,15 @@
     </main>
 
     <footer>
-      <nav class="navbar navbar-default navbar-fixed-bottom">
         <div class="container text-center">
           <small>&copy; 2016 Syllabusy</small>
           <span class="glyphicon glyphicon-education" aria-hidden="true"></span>
           <small> Denver, CO</small>
         </div>
-      </nav>
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="app.js"></script>
+    <script src="../app.js"></script>
   </body>
 </html>
