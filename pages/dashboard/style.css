@@ -79,14 +79,6 @@
   padding: 1rem;
 }
 
-footer {
-  margin-top: 20px;
-  color: black;
-  background-color: hsl(38, 95%, 60%);
-  border-top: grey;
-  padding: .75em 0;
-}
-
 .navbar-fixed-bottom{
   margin-top: 20px;
   color: black;
